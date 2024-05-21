@@ -5,8 +5,7 @@
 
 import boto3, json, os, decimal
 
-# SM_ARN = "${aws_sfn_state_machine.sfn_state_machine.arn}"
-SM_ARN = "arn:aws:states:us-east-1:556298987240:stateMachine:PetCuddleOTron"
+SM_ARN = "${aws_sfn_state_machine.sfn_state_machine.arn}"
 sm = boto3.client('stepfunctions')
 
 def lambda_handler(event, context):
