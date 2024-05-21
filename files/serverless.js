@@ -1,5 +1,5 @@
 
-var API_ENDPOINT = 'https://h2fs5k6wwi.execute-api.us-east-1.amazonaws.com/prod/petcuddleotron';
+var API_ENDPOINT = '';
 
 var errorDiv = document.getElementById('error-message')
 var successDiv = document.getElementById('success-message')
